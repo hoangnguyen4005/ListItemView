@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FilterOptionView" customModule="CircularTimer" customModuleProvider="target">
+            <connections>
+                <outlet property="label" destination="GSM-rx-HYf" id="BG0-Bh-us8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="165"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSM-rx-HYf">
+                    <rect key="frame" x="16" y="8" width="382" height="149"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mxa-LP-Han">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="165"/>
+                    <connections>
+                        <action selector="eventClickItem:" destination="-1" eventType="touchUpInside" id="FLa-D4-RcK"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Mxa-LP-Han" secondAttribute="trailing" id="6vd-63-84P"/>
+                <constraint firstAttribute="bottom" secondItem="GSM-rx-HYf" secondAttribute="bottom" constant="8" id="AAG-c7-sIW"/>
+                <constraint firstItem="Mxa-LP-Han" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="IQv-fp-f25"/>
+                <constraint firstItem="GSM-rx-HYf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="M1P-OU-O26"/>
+                <constraint firstAttribute="bottom" secondItem="Mxa-LP-Han" secondAttribute="bottom" id="mYR-Bi-hzc"/>
+                <constraint firstItem="GSM-rx-HYf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="oQs-dJ-eqB"/>
+                <constraint firstItem="Mxa-LP-Han" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vkX-g7-IdI"/>
+                <constraint firstAttribute="trailing" secondItem="GSM-rx-HYf" secondAttribute="trailing" constant="16" id="vrt-hg-VX0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="137.68115942028987" y="-108.14732142857143"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

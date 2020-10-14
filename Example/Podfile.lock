@@ -1,0 +1,16 @@
+PODS:
+  - ListItemView (0.0.1)
+
+DEPENDENCIES:
+  - ListItemView (from `../`)
+
+EXTERNAL SOURCES:
+  ListItemView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ListItemView: b6657204fe6cac87b027324390b668e4f8ec2c61
+
+PODFILE CHECKSUM: d446d3d8e002516550a6101ee5aae1f8518a88e3
+
+COCOAPODS: 1.9.3

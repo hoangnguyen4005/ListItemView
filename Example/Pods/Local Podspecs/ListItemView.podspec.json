@@ -1,0 +1,22 @@
+{
+  "name": "ListItemView",
+  "version": "0.0.1",
+  "summary": "ListItemView is design library pod",
+  "description": "ListItemView is library, which display list item",
+  "homepage": "https://github.com/nguyenhoangit57",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Hoang Nguyen": "hoangnguyen4005@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/nguyenhoangit57/ListItemView",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "ListItemView/Classes/**/*"
+}
