@@ -1,6 +1,6 @@
 # ListItemView
-  - ListItemView allow us to create and display list item view.
-  - Public api for us receive event when users select item.
+  - ListItemView allow us creation and display list item view.
+  - Public apis for us receive and handle events when users select item.
   - You can custom or edit theme depend on your requirement.
   
 ![Simulator Screen Shot - iPhone 8 - 2020-10-14 at 22 25 50](https://user-images.githubusercontent.com/15699560/96003025-62191580-0e6c-11eb-9c65-8693c17402d2.png)
