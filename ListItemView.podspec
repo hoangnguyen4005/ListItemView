@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'ListItemView'
   s.version          = '0.0.1'
   s.summary          = 'ListItemView is design library pod'
-  s.description      = "ListItemView is library, which display list item"
+  s.description      = "istItemView allows us creation and display list item view"
   s.homepage         = 'https://github.com/nguyenhoangit57'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Hoang Nguyen' => 'hoangnguyen4005@gmail.com' }
